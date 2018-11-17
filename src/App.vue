@@ -18,7 +18,7 @@ export default {
     'my-top-navbar': TopNavbar,
     'my-footer': Footer
   },
-  data () {
+  data() {
     return {
       darkTheme: true
     }

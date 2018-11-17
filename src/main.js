@@ -3,6 +3,7 @@ import App from '@/App.vue'
 import router from '@/Plugins/router'
 import store from '@/Store/store'
 import '@/Plugins/vuetify'
+import '@/Plugins/moment'
 
 Vue.config.productionTip = false
 

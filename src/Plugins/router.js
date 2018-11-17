@@ -13,14 +13,14 @@ export default new Router({
       component: () => import('@/Components/RouteViews/Home.vue')
     },
     {
-      path: '/About',
-      name: 'about',
-      component: () => import('@/Components/RouteViews/About.vue')
-    },
-    {
       path: '/Login',
       name: 'login',
       component: () => import('@/Components/RouteViews/Login.vue')
+    },
+    {
+      path: '/About',
+      name: 'about',
+      component: () => import('@/Components/RouteViews/About.vue')
     }
   ]
 })
